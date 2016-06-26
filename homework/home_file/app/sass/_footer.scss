@@ -1,0 +1,37 @@
+footer {
+	clear: right;
+	height: 90px;
+	margin: 40px 0 0 0;
+	border-top: 1px solid $footerBorderColor;
+	background: $footerBackgroundColor;
+}
+.footerContact {
+	display: inline-block;
+	margin: 20px 0 0 0;
+}
+.contactText {
+	font-size: 14px;
+	opacity: .3;
+	margin: 0 0 5px 0;
+}
+.contactSocBoxItem {
+	display: inline-block;
+	margin: 0 3px 0 3px;
+	opacity: .3;
+	transition: .3s;
+}
+.contactSocBoxItem:hover {
+	opacity: .6;
+}
+.copyrigth {
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	margin: 65px 0 0 0;
+	opacity: .2;
+	transition: .3s;
+}
+.copyrigth:hover {
+	opacity: .4;
+}

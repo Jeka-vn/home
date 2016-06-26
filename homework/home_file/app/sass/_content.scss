@@ -1,0 +1,56 @@
+.contentItem {
+	width: 300px;
+	height: 200px;
+	margin: 30px 29px 0 29px;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+	border: 11px solid #fff;
+	position: relative;
+	transition: .3s;
+}
+.contentItem:hover {
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+.contentImgBox {
+	height: 200px;
+	overflow: hidden;
+}
+.contentImg {
+	width: 300px;
+	transition: .3s;
+}
+.contentItem:hover .contentImg {
+	width: 350px;
+	margin: -25px 0 0 -25px;
+}
+.contentHover {
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	background: $contentHoverColorBackground;
+	opacity: 0;
+	transition: .3s;
+	cursor: pointer;
+}
+.contentHoverTitle {
+	margin: 5px 0 0 5px;
+	font-style: italic;
+}
+.contentHover i {
+	margin: 40px 0 0 110px;
+	opacity: .5;
+}
+.contentHoverLink {
+	margin: 35px 0 0 5px;
+	font-style: italic;
+	display: block;
+}
+.contentHover:hover {
+	opacity: 1;
+
+}

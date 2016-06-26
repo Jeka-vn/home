@@ -1,0 +1,96 @@
+.contact {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	background-color: rgba(44, 44, 44, 0.8);
+	background: rgba(44, 44, 44, 0.8);
+	opacity: 0;
+	display: none;
+}
+.contactBox {
+	width: 60%;
+	padding: 10px;
+	min-height: 220px;
+	background: $backgroundContact;
+	margin: 2% auto;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	position: relative;
+}
+.contactClose {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 3;
+	opacity: .5;
+	cursor: pointer;
+}
+.contactClose:hover {
+	opacity: .8;
+}
+.imgAutorBox {
+	width: 200px;
+	border: 8px solid #fff;
+	overflow: hidden;
+	float: left;
+	margin: 0 15px 15px 0;
+}
+.imgAutor {
+	width: 200px;
+}
+.contactTextHeader {
+	display: inline-block;
+	margin: 0px 0 0 0;
+	background: #555;
+	padding: 10px 80px 10px 10px;
+	border: 1px dotted #777;
+}
+.contactTextItem {
+	display: block;
+	margin: 5px 0 5px 0;
+}
+.contactTextItem i {
+	font-size: 20px;
+	display: inline-block;
+	margin: 0 5px 0 0;
+}
+.certificate {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	background: #1d1d1d;
+	opacity: 0;
+	display: none;
+}
+.certificateBox {
+	width: 60%;
+	padding: 10px;
+	min-height: 220px;
+	background: $backgroundContact;
+	margin: 2% auto;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	position: relative;
+}
+.certificateClose {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 3;
+	opacity: .5;
+	cursor: pointer;
+}
+.certificateClose:hover {
+	opacity: .8;
+}
+.certificateImg {
+	width: 100%;
+	margin: 50px 0 0 0;
+}

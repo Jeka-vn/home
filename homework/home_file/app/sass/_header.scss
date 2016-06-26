@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+body {
+	color: $bodyColorText;
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	background: $bodyBackground;
+	position: relative;
+}	
+header {
+	height: 80px;
+	background: $headerBackgroundColor;
+	border-bottom: 1px solid $headerBorderColor;
+}
+.menu {
+	display: inline-block;
+	padding: 23px 0 0 0;
+}
+.menuItem {
+	display: inline-block;
+	transition: .3s;
+	margin: 0 10px 0 10px;
+}
+.menuLink {
+	position: relative;
+	bottom: 5px;
+}
+.menuItem:hover {
+	opacity: .6;
+}
+.profile {
+	float: right;
+	transition: .3s;
+}
+.profileName {
+	display: inline-block;
+	vertical-align: top;
+	margin: 30px 20px 0 0;
+}
+.profileImgBox {
+	width: 60px;
+	height: 60px;
+	margin: 7px 0 0 0; 
+	border-radius: 60px;
+	display: inline-block;
+	overflow: hidden;
+	border: 3px solid #fff;
+}
+.profileImg {
+	width: 70px;
+}
+.profile:hover {
+	opacity: .6;
+}

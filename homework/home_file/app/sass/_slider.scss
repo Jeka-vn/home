@@ -1,0 +1,53 @@
+.show {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 1);
+	background: rgba(0, 0, 0, 1);
+	display: none;
+	opacity: 0;
+	min-height: 150%;
+}
+.show span {
+	width: 9%;
+	height: 100%;
+	text-align: center;
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	z-index: 1;
+	opacity: .5;
+	transition: .3s;
+	cursor: pointer;
+}
+.show span:hover {
+	opacity: .8;
+}
+.showFullImgBox {
+	width: 80%;
+	margin: 2% auto;
+}
+.showFullImg {
+	width: 100%;
+}
+.previewFullPage,
+.previewPageFolder {
+	opacity: .7;
+	transition: .3;
+}
+.previewFullPage:hover,
+.previewPageFolder:hover {
+	opacity: 1;
+}
+.previewFullPage {
+	display: block;
+	margin: 20px 0 0 10px;
+	position: fixed;
+}
+.previewPageFolder {
+	display: block;
+	margin: 50px 0 0 10px;
+	position: fixed;
+}

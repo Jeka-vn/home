@@ -1,0 +1,141 @@
+@media (max-width: 1180px) {
+	.container {
+		width: 930px;
+	}
+	header {
+		height: auto;
+		padding: 0 0 25px 0;
+	}
+	.contentItem {
+		width: 250px;
+		height: 150px;
+		margin: 30px 18px 0 17px;
+	}
+	.contentImgBox {
+		height: 150px;
+	}
+	.contentImg {
+		width: 250px;
+	}
+	.contentHover {
+		width: 250px;
+		height: 150px;
+	}
+	.contentHover i {
+		margin: 10px 0 0 90px;
+	}
+	.contentItem:hover .contentImg {
+		width: 300px;
+	}
+	.contentHoverLink {
+		margin: 15px 0 0 5px;
+	}
+}
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+	.contentItem {
+		width: 300px;
+		height: 200px;
+		margin: 30px 12px 0 12px;
+	}
+	.contentImgBox {
+		height: 300px;
+	}
+	.contentImg {
+		width: 300px;
+	}
+	.contentHover {
+		width: 300px;
+		height: 200px;
+	}
+	.contentHover i {
+		margin: 40px 0 0 110px;
+	}
+	.contentItem:hover .contentImg {
+		width: 360px;
+	}
+	.contentHoverLink {
+		margin: 35px 0 0 5px;
+	}
+}
+@media (max-width: 740px) {
+	.container {
+		width: 480px;
+	}
+	.menuItem {
+		margin: 0 12px 0 12px;
+	}
+	.contentItem {
+		width: 417px;
+		height: 200px;
+		margin: 30px 12px 0 12px;
+	}
+	.profile {
+		display: none;
+	}
+	.contentImgBox {
+		height: 417px;
+	}
+	.contentImg {
+		width: 417px;
+	}
+	.contentHover {
+		width: 417px;
+		height: 200px;
+	}
+	.contentItem:hover .contentImg {
+		width: 460px;
+	}
+	.contentHover i {
+		margin: 40px 0 0 180px;
+	}
+	.contentHoverLink {
+		margin: 35px 0 0 5px;
+	}
+}
+@media (max-width: 478px) {
+	header {
+	}
+	.menuItem {
+		margin: 0px 0 10px 10px;
+		display: block;
+	}
+	.container {
+		width: 300px;
+	}
+	.contentItem {
+		width: 255px;
+		height: 150px;
+		margin: 30px 12px 0 12px;
+	}
+	.contentImgBox {
+		height: 255px;
+	}
+	.contentImg {
+		width: 255px;
+	}
+	.contentHover {
+		width: 255px;
+		height: 150px;
+	}
+	.contentHover i {
+		margin: 20px 0 0 90px;
+	}
+	.contentItem:hover .contentImg {
+		width: 305px;
+	}
+	.contentHoverLink {
+		margin: 7px 0 0 5px;
+	}
+	.show span {
+		right: 2px;
+	}
+	.footerContact {
+		margin: 10px 0 0 10px;
+	}
+	.copyrigth {
+		margin: 70px 10px 0 0;
+	}
+}
